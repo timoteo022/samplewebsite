@@ -102,10 +102,10 @@ margin-left:20px;
 #tf-menu.navbar-default .navbar-nav > li > a {
 	text-transform: uppercase;
 	color: #FFF;
-	font-size: 10px;
+	font-size: 15px;
 	letter-spacing: .5px;
 	float: right;
-	margin-right: 10px;
+	margin-right: 5px;
 }
 .on {
 	background-color: #222222 !important;
