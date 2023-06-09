@@ -301,9 +301,9 @@ img.img-circle.team-img {
 #tf-ministries img {
 	font-size: 40px;
 	border: 4px solid #FCAC45;
-	width: 350px;
-	height: 350px;
-	padding: 15px 13px;
+	width: 270px;
+	height: 250px;
+	padding: 12px 10px;
 	margin-bottom: 10px;
 	border-radius: 10%;
 	transition: all 0.5s;
