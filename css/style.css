@@ -343,9 +343,12 @@ img.img-circle.team-img {
 
 #clients .item{
     padding: 0;
-    margin: 20px;
     color: #FFF;
     text-align: center;
+}
+
+#clients .item-wrapper {
+    margin: 35px;
 }
 /* Gallery Section 
 ==============================*/
