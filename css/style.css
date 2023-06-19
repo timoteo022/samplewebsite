@@ -347,6 +347,23 @@ img.img-circle.team-img {
     text-align: center;
 }
 
+#clients.owl-carousel {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+}
+
+#clients .item {
+    flex: 0 0 auto;
+    width: 100%;
+    padding: 0;
+    margin: 35px;
+    color: #FFF;
+    text-align: center;
+    scroll-snap-align: center;
+}
+
 /* Gallery Section 
 ==============================*/
 #tf-events{
