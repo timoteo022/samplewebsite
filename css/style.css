@@ -344,6 +344,7 @@ img.img-circle.team-img {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 400px;
 }
 
 #clients .item {
