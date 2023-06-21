@@ -340,29 +340,30 @@ img.img-circle.team-img {
   background-attachment: fixed;
 }
 
-#clients .item{
-    padding: 0;
-    margin: 35px;
-    color: #FFF;
-    text-align: center;
-}
-
-#clients.owl-carousel {
-    display: flex;
-    flex-wrap: nowrap;
-    overflow-x: auto;
-    scroll-snap-type: x mandatory;
+.owl-carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #clients .item {
-    flex: 0 0 auto;
-    width: 100%;
-    padding: 0;
-    margin: 35px;
-    color: #FFF;
-    text-align: center;
-    scroll-snap-align: center;
+  flex: 0 0 auto;
+  width: auto;
+  padding: 0;
+  margin: 0 10px;
+  color: #FFF;
+  text-align: center;
 }
+
+#clients .item .item-content {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.video-wrapper {
+  position: relative;
+  width: 200%;
+  padding-bottom: 56.25%; /* 16:9
 
 /* Gallery Section 
 ==============================*/
