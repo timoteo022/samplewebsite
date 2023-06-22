@@ -86,7 +86,7 @@ $("#clients").owlCarousel
 	  slideSpeed: 300,
 	  paginationSpeed: 400,
 	  autoHeight: true,
-	  items: 3, // Adjust this value based on the number of visible items you want
+	  items: 2, // Adjust this value based on the number of visible items you want
 	  margin: 10, // Adjust this value based on your desired item spacing
 	  responsiveClass: true,
 	  responsive: 
