@@ -62,7 +62,7 @@ function main() {
 				      ],
   	  });
 
-  	  $("#clients").owlCarousel({
+  	  /*$("#clients").owlCarousel({
   	 
   	      navigation : false, // Show next and prev buttons
   	      slideSpeed : 300,
@@ -78,7 +78,30 @@ function main() {
 				        [1400, 5],
 				        [1600, 5]
 				      ],
-  	  });
+  	  });*/
+
+$("#clients").owlCarousel
+	 ({
+	  navigation: false,
+	  slideSpeed: 300,
+	  paginationSpeed: 400,
+	  autoHeight: true,
+	  items: 3, // Adjust this value based on the number of visible items you want
+	  margin: 10, // Adjust this value based on your desired item spacing
+	  responsiveClass: true,
+	  responsive: 
+	  {
+	    0: {
+		      items: 1 // Number of visible items for screen width less than 600px
+		    },
+	    600: {
+		      items: 2 // Number of visible items for screen width between 600px and 991px
+		    },
+	    992: {
+		      items: 3 // Number of visible items for screen width equal to or greater than 992px
+			 }
+		}
+	});
 
       $("#testimonial").owlCarousel({
         navigation : false, // Show next and prev buttons
