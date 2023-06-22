@@ -388,7 +388,7 @@ img.img-circle.team-img {
   display: flex;
 }
 
-owl-carousel .owl-item {
+.owl-carousel .owl-item {
   flex: 0 0 auto;
   width: 100%;
 }
