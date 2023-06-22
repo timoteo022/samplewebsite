@@ -68,7 +68,7 @@ function main() {
   	      slideSpeed : 300,
   	      paginationSpeed : 400,
   	      autoHeight : true,
-	      margin: 10,
+	      margin: 20,
   	      itemsCustom : [
 				        [0, 1],
 				        [450, 2],
