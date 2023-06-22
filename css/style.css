@@ -356,6 +356,7 @@ img.img-circle.team-img {
 }
 
 .owl-carousel {
+  display:flex;
   justify-content: space-between;
   align-items: center;
   height: 400px;
@@ -381,6 +382,15 @@ img.img-circle.team-img {
   position: relative;
   width: 100%;
   padding-bottom: 56.25%;
+}
+
+.owl-carousel .owl-stage {
+  display: flex;
+}
+
+owl-carousel .owl-item {
+  flex: 0 0 auto;
+  width: 100%;
 }
 
 /* Gallery Section 
