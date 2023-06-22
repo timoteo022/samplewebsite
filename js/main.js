@@ -62,7 +62,7 @@ function main() {
 				      ],
   	  });
 
-  	  $("#clients").owlCarousel({
+  	  /*$("#clients").owlCarousel({
   	 
   	      navigation : false, // Show next and prev buttons
   	      slideSpeed : 300,
@@ -79,7 +79,25 @@ function main() {
 				        [1400, 5],
 				        [1600, 5]
 				      ],
-  	  });
+  	  });*/
+
+		$("#clients").owlCarousel({
+    		navigation: false,
+    		slideSpeed: 300,
+    		paginationSpeed: 400,
+    		autoHeight: true,
+   		margin: 20,
+  	        itemsCustom: [
+   		     [0, 1],
+  		     [450, 2],
+  		     [600, 2],
+  		     [700, 3],
+  		     [1000, 3],
+   		     [1200, 3],
+   		     [1400, 3],
+  		     [1600, 3]
+    ],
+});
 
       $("#testimonial").owlCarousel({
         navigation : false, // Show next and prev buttons
