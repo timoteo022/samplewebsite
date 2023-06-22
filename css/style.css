@@ -373,8 +373,16 @@ img.img-circle.team-img {
 }
 
 #clients .item .item-content {
-  display: inline-block;
-  vertical-align: top;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+#clients .item .item-content iframe {
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .video-wrapper 
