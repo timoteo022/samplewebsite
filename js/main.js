@@ -82,21 +82,25 @@ function main() {
   	  });*/
 
 		$("#clients").owlCarousel({
-    		navigation: false,
-    		slideSpeed: 300,
-    		paginationSpeed: 400,
-    		autoHeight: true,
-   		margin: 15,
-  	        itemsCustom: [
-   		     [0, 1],
-  		     [450, 2],
-  		     [600, 3],
-  		     [700, 3],
-  		     [1000, 3],
-   		     [1200, 3],
-   		     [1400, 3],
-  		     [1600, 3]
-    ],
+  navigation: false,
+  slideSpeed: 300,
+  paginationSpeed: 400,
+  autoHeight: true,
+  margin: 15,
+  itemsCustom: [
+    [0, 1],
+    [450, 2],
+    [600, 3],
+    [700, 3],
+    [1000, 3],
+    [1200, 3],
+    [1400, 3],
+    [1600, 3]
+  ],
+  items: 3, // Number of items per slide
+  loop: true, // Enable looping
+  center: true, // Center the active item
+  dots: false, // Hide the navigation dots
 });
 
       $("#testimonial").owlCarousel({
